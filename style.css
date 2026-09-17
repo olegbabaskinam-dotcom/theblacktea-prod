@@ -96,3 +96,21 @@ mix-blend-mode:overlay;opacity:.3}
 .tm{color:var(--mut);font-size:14px}
 @media(max-width:900px){.bgrid,.gallery{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:520px){.bgrid,.gallery{grid-template-columns:1fr}}
+
+/* v4: без листика, мобильная типографика */
+.logo span{font:700 15px/1.05 Unbounded,sans-serif;color:#fff;letter-spacing:.02em}.logo small{color:#bdbdbd}
+.flogo{margin-bottom:12px}.flogo b{display:block;font:700 22px/1.1 Unbounded,sans-serif;color:#fff}.flogo small{display:block;font:600 11px Manrope;letter-spacing:.4em;color:#9a9a9a;margin-top:4px}
+h1,h2,h3,p,li,.lead,.sub{overflow-wrap:normal;word-break:normal;hyphens:manual;text-wrap:balance}
+p,li,.lead,.sub{text-wrap:pretty}
+.pv,.ptable td:last-child,.pu,.op-main{white-space:normal}
+@media(max-width:520px){
+ .wrap{padding:0 16px}
+ h1{font-size:30px;line-height:1.12}h2{font-size:23px}h3{font-size:17px}
+ .sub,.lead{font-size:16px}
+ .op-main{font-size:18px}.pv{font-size:24px}
+ .logo span{font-size:13px}.logo small{font-size:8px;letter-spacing:.3em}
+ .ptable th,.ptable td{padding:10px 6px;font-size:14px}
+ .btn{width:100%;justify-content:center}
+ .trust,.steps,.plates{grid-template-columns:1fr}
+ .band{padding:34px 18px}
+}
