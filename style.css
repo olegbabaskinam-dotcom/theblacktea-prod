@@ -102,7 +102,10 @@ mix-blend-mode:overlay;opacity:.3}
 .flogo{margin-bottom:12px}.flogo b{display:block;font:700 22px/1.1 Unbounded,sans-serif;color:#fff}.flogo small{display:block;font:600 11px Manrope;letter-spacing:.4em;color:#9a9a9a;margin-top:4px}
 h1,h2,h3,p,li,.lead,.sub{overflow-wrap:normal;word-break:normal;hyphens:manual;text-wrap:balance}
 p,li,.lead,.sub{text-wrap:pretty}
-.pv,.ptable td:last-child,.pu,.op-main{white-space:normal}
+.pv{white-space:nowrap;font-size:clamp(22px,2.2vw,28px)}
+.ptable td:last-child{white-space:nowrap}
+.pu,.op-main{white-space:normal}
+.op-main{font-size:clamp(17px,1.9vw,22px)}
 @media(max-width:520px){
  .wrap{padding:0 16px}
  h1{font-size:30px;line-height:1.12}h2{font-size:23px}h3{font-size:17px}
