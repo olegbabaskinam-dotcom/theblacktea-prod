@@ -117,3 +117,5 @@ p,li,.lead,.sub{text-wrap:pretty}
  .trust,.steps,.plates{grid-template-columns:1fr}
  .band{padding:34px 18px}
 }
+
+.bcard audio{width:100%;margin:2px 0 12px}
